@@ -8,8 +8,8 @@
     let weatherData = null;
     let error = null;
 
-
-    const apiKey = "d86e8e19c3d75f42ec723238c29dece0";
+    //must have an api key to access the openweathermap api
+    const apiKey = "Enter your api key here..";
     const apiUrl = "https://api.openweathermap.org/data/2.5/weather?";
 
     async function checkClim() {
